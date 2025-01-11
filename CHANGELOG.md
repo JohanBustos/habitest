@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - expose route "/property"
   - creation of controllers, services and models
 - Enhacen for module database manager in BaseModel and new BaseSerializer.
-  - PR: [https://github.com/JohanBustos/habitest/pull/10](https://github.com/JohanBustos/habitest/pull/11) | Authors: [Johan Bustos](mailto:johan.bustosm@gmail.com)
+  - PR: [https://github.com/JohanBustos/habitest/pull/11](https://github.com/JohanBustos/habitest/pull/11) | Authors: [Johan Bustos](mailto:johan.bustosm@gmail.com)
 
 ## [0.4.0] - Database Connection Management and ORM Implementation - Unpublished
 

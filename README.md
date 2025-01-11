@@ -54,7 +54,6 @@ Una vez completados los módulos anteriores, el siguiente paso fue exponer la ru
 
 Con estos pasos, el proyecto establece una base sólida para el desarrollo de servicios escalables y de fácil mantenimiento. La arquitectura modular, junto con el uso de técnicas de *clean code*, garantiza la flexibilidad y calidad a largo plazo.
 
-
 ## Autor
 
 **Johan Bustos**

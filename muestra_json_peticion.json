@@ -1,0 +1,8 @@
+{
+    "filters":{
+        "state":["en_ventas", "vendido"],
+        "price":["<=", 150000000],
+        "city" : ["cali", "bogota"]
+    },
+    "order_by":"construction_year"
+}
