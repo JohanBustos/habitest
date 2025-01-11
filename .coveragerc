@@ -2,3 +2,8 @@
 # Excluir el directorio de pruebas y cualquier archivo que no necesite ser contado
 omit =
     */tests/*
+
+source =
+    src
+    server
+    database_manager
