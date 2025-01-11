@@ -1,0 +1,4 @@
+[run]
+# Excluir el directorio de pruebas y cualquier archivo que no necesite ser contado
+omit =
+    */tests/*
