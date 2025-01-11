@@ -66,7 +66,7 @@ def test_find_with_operator_filter(mock_db_connection):
     ]  # Simulate the column descriptions
 
     # Set a filter with an operator
-    filters = {"age": (">", 25)}
+    filters = {"age": [">", 25]}
 
     # Execute the find method
     results = TestModel.find(filters=filters)
