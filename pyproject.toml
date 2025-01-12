@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "habitest"
+version = "0.1.0"
+description = "Habi Test"
+authors = ["Johan Bustos <johan.bustosm@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+develop = "^0.2.1"
+mysql-connector-python = "^9.1.0"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+pytest = "^8.3.4"
+coverage = "^7.6.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

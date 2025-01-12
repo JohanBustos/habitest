@@ -1,0 +1,34 @@
+@startuml
+
+!define RECTANGLE_STYLE rectangle
+!define HEXAGON_STYLE hexagon
+!define DATABASE_STYLE database
+
+' Title
+title Simplified C4 Diagram - Container Level
+
+' Components
+RECTANGLE_STYLE Server {
+  HEXAGON_STYLE Router as "Router (Route Decorators)"
+}
+
+RECTANGLE_STYLE Handlers {
+  HEXAGON_STYLE Controller as "Property Controller"
+}
+
+RECTANGLE_STYLE Core {
+  HEXAGON_STYLE PropertyService as "Property Service"
+}
+
+RECTANGLE_STYLE DatabaseManager {
+  HEXAGON_STYLE DatabaseConnection as "Database Connection (Singleton)"
+  DATABASE_STYLE Database as "Database"
+}
+
+' Relationships
+Router --> Controller : Directs Requests
+Controller --> PropertyService : Invokes Business Logic
+PropertyService --> DatabaseConnection : Queries/Updates Data
+DatabaseConnection --> Database : Reads/Writes
+
+@enduml
